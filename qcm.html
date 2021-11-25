@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>QCM</title>
+<script type="text/javascript" src="qcm.js"></script>
+<link rel="stylesheet" type="text/css" href="qcm.css">
+</head>
+<body>
+<header><p class="title">QCM développement</p><p class="entete">BTS SIO Lycée Parc de Vilgénis</p></header>
+<form name="qcm" onsubmit="Answers()">
+	<!-- Question 1 -->
+<strong>Question 1 :</strong><br>
+Que veut dire le mot HTML?<br>
+<ul>
+	<li><input type="checkbox" name="q1" onclick="A0='a'">a)Home Tool Markup Language</li>
+	<li><input type="checkbox" name="q1" onclick="A0='b'">b)Hyperlinks and Text Markup Language</li>
+	<li><input type="checkbox" name="q1" onclick="A0='c'">c)Hyper Text Markup Language</li>
+	<li><input type="checkbox" name="q1" onclick="A0='d'">d)Hyper Text machine Language</li>
+</ul>
+<!-- Question 2 -->
+<strong>Question 2 :</strong><br>
+ Quelle balise te permettra d'insérer correctement une image de fond dans ta page?<br>
+<ul>
+	<li><input type="checkbox" name="q2"onclick="A1='a'" >a)< BODY BACKGROUND="" ></li>
+	<li><input type="checkbox" name="q2"onclick="A1='b'">b)< IMG SRC="" BACKGROUND ></li>
+	<li><input type="checkbox" name="q2"onclick="A1='c'">c)< BACKGROUND IMG="" ></li>
+	<li><input type="checkbox" name="q2"onclick="A1='d'">d)< IMG SRC="" TYPE="background" ></li>
+</ul>
+<!-- Question 3 -->
+<strong>Question 3 :</strong><br>
+Quel attribut de la balise < BODY.. > établit la couleur de fond d'une page web?<br>
+<ul>
+	<li><input type="checkbox" name="q3"onclick="A2='a'">a)BACKGROUND</li>
+	<li><input type="checkbox" name="q3"onclick="A2='b'">b)BACKCOLOR</li>
+	<li><input type="checkbox" name="q3"onclick="A2='c'">c)BGCOLOR</li>
+	<li><input type="checkbox" name="q3"onclick="A2='d'">d)BCOLOR</li>
+</ul>
+<!-- Question 4 -->
+<strong>Question 4 :</strong><br>
+Parmi les choix de style logique ci dessous, lequel te permettra de mettre en italique le mot "Toujours"?
+<ul>
+	<li><input type="checkbox" name="q4"onclick="A3='a'">a)< EM >Toujours< /EM ></li>
+	<li><input type="checkbox" name="q4"onclick="A3='b'">b)< STRONG >Toujours< /STRONG ></li>
+	<li><input type="checkbox" name="q4"onclick="A3='c'">c)< SUB >Toujours< /SUB ></li>
+	<li><input type="checkbox" name="q4"onclick="A3='d'">d)< SUP >Toujours< /SUP ></li>
+</ul>
+<!-- Question 5 -->
+<strong>Question 5 :</strong><br>
+Quelle balise doit-on utiliser pour faire un changement de ligne?
+<ul>
+	<li><input type="checkbox" name="q5"onclick="A4='a'">a)< BR ></li>
+	<li><input type="checkbox" name="q5"onclick="A4='b'">b)< HR > 5 < UL ></li>
+	<li><input type="checkbox" name="q5"onclick="A4='c'">c)< LI ></li>
+</ul>
+<!-- Question 6 -->
+<strong>Question 6 :</strong><br>
+Quelle balise utilise-t-on pour changer le style du texte de normal à ARIAL?
+<ul>
+	<li><input type="checkbox" name="q6"onclick="A5='a'">a)< FONT STYLE ="Arial" ></li>
+	<li><input type="checkbox" name="q6"onclick="A5='b'">b)< FONT FACE ="Arial" ></li>
+	<li><input type="checkbox" name="q6"onclick="A5='c'">c)< FONT SIZE ="Arial" ></li>
+	<li><input type="checkbox" name="q6"onclick="A5='d'">d)< FONT CHANGE= "Arial" > </li>
+</ul>
+<!-- Question 7 -->
+<strong>Question 7 :</strong><br>
+La balise < HTML > doit être placée :
+<ul>
+	<li><input type="checkbox" name="q7"onclick="A6='a'">a)Après la balise < TITLE > et avant la balise < /BODY ></li>
+	<li><input type="checkbox" name="q7"onclick="A6='b'">b)Avant la balise < TITLE > et après la balise < !DOCTYPE html ></li>
+	<li><input type="checkbox" name="q7"onclick="A6='c'">c)Au début et à la fin de tous les documents HTML</li>
+</ul>
+<!-- Question 8 -->
+<strong>Question 8 :</strong><br>
+Quelle est la bonne façon de terminer un document HTML?
+<ul>
+	<li><input type="checkbox" name="q8"onclick="A7='a'">a)< HTML ></li>
+	<li><input type="checkbox" name="q8"onclick="A7='b'">b)END < HTML ></li>
+	<li><input type="checkbox" name="q8"onclick="A7='c'">c)<\HT'ML></li>
+	<li><input type="checkbox" name="q8"onclick="A7='d'">d)< /HTML ></li>
+</ul>
+<!-- Question 9 -->
+<strong>Question 9 :</strong><br>
+Quelle balise permet d'avoir du texte rayé dans un document HTML?
+<ul>
+	<li><input type="checkbox" name="q9"onclick="A8='a'">a)< S ></li>
+	<li><input type="checkbox" name="q9"onclick="A8='b'">b)< U ></li>
+	<li><input type="checkbox" name="q9"onclick="A8='c'">c)< I ></li>
+	<li><input type="checkbox" name="q9"onclick="A8='d'">d)< B ></li>
+</ul>
+<!-- Question 10 -->
+<strong>Question 10 :</strong><br>
+ Quel est le code HTML pour mettre un texte un peu plus petit?
+ <ul>
+ 	<li><input type="checkbox" name="q10"onclick="A9='a'">a)< S ></li>
+ 	<li><input type="checkbox" name="q10"onclick="A9='b'">b)< STRIKE ></li>
+ 	<li><input type="checkbox" name="q10"onclick="A9='c'">c)< SMALL ></li>
+ 	<li><input type="checkbox" name="q10"onclick="A9='d'">d)< PETIT ></li>
+ </ul>
+
+
+<center>
+<input type="button" value="Correction" onclick="MarkAnswers()">
+<input type="reset" value="Effacer">
+<a href="corrige.html"><input type="button" value="Corrigé"></a>
+
+</center>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</form>
+
+</body>
+</html>
